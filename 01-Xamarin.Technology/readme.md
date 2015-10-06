@@ -62,13 +62,23 @@
 ###	Xamarin.Standard/Xamarin.Traditional
 
 1.	Create Android App
-2.	Start emulator
-3.	Show click Event
-4.	Working with AndroidManifes.xml		
+2.	Start App in Emulator
+3.	Demo: Xamarin is native		
+	1.	Android UI defined in xml (axml)		
+		Resources/layout/Main.axml		
+		add more controld/widgets		
+	2.	Architecture/Structure
+		$TARGET=Debug|Release		
+		obj/$TARGET/android/AndroidManifes.xml		
+		obj/$TARGET/android/src/**/*.java		
+		obj/$TARGET/android/projectname/**/*.java		
+4.	Show click Event
+5.	Working with AndroidManifest.xml		
 	[TODO]
-4.	Java vs. c# idioms 		
-	[TODO]
-5.	Activity + Intents - navigation
+6.	Java vs. c# idioms 		
+	MainActivity.CSharp.Event.cs
+	MainActivity.Java.Listener.cs
+7.	Activity + Intents - navigation
 
 ###	Xamarin.Forms
 
