@@ -5,10 +5,15 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android;
+
+[assembly: UsesPermission(Manifest.Permission.AccessFineLocation)]
+[assembly: UsesPermission(Manifest.Permission.AccessCoarseLocation)]
 
 namespace StandardTraditional.XamarinAndroid
 {
-	public partial class MainActivity : Activity
+
+	public partial class MainActivity
 	{
 		/// <summary>
 		/// 

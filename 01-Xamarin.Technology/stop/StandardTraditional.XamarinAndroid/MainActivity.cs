@@ -42,11 +42,11 @@ namespace StandardTraditional.XamarinAndroid
 
 			// Java idiom for Event Handling (Listeners) java-style
 			button_public = button;
-			button.SetOnClickListener
-						(
-							// new JavaIdiomClickListener()		// java
-							new JavaIdiomClickListener(this)	// c# 
-						);
+//			button.SetOnClickListener
+//						(
+//							// new JavaIdiomClickListener()		// java
+//							new JavaIdiomClickListener(this)	// c# 
+//						);
 
 			return;
 		}

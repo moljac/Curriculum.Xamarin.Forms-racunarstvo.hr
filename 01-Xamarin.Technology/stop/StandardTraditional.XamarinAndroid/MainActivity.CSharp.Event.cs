@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace StandardTraditional.XamarinAndroid
 {
-	public partial class MainActivity : Activity
+	public partial class MainActivity 
 	{
 		private void button_Click(object sender, EventArgs e)
 		{
