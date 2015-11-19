@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutsDemo.ContentViewPersonGrid">
+	<ContentView.Content>
+
+	<ScrollView>
+    <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="500" />
+      <RowDefinition Height="500" />
+      <RowDefinition Height="500" />
+      <RowDefinition Height="500" />
+      <RowDefinition Height="500" />
+      <RowDefinition Height="100" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+		<Label
+			Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+			Text="First Name and Last Name:"
+			>
+			</Label>
+		<Entry
+			x:Name="entryNameFistLast"
+			Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+			>
+		</Entry>
+		<DatePicker
+			x:Name="datePickerToday"
+			Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+			>
+		</DatePicker>
+
+
+
+		<Label
+			Grid.Row="3" Grid.Column="0" 
+			>DoB:
+		</Label>
+			<DatePicker
+			Grid.Row="3" Grid.Column="1" 
+				x:Name="datePcikerDateOfBirth"
+				>
+			</DatePicker>
+
+
+			<Label
+			Grid.Row="4" Grid.Column="0" 
+			>Female:</Label>
+			<Switch
+			Grid.Row="4" Grid.Column="1" 
+				x:Name="switchIsFemale">
+			</Switch>
+
+			<Label
+			Grid.Row="5" Grid.Column="0" 
+			>Age:</Label>
+			<Label
+			Grid.Row="5" Grid.Column="1" 
+				x:Name="labelAge">nA</Label>
+
+		</Grid>
+	</ScrollView>
+
+	</ContentView.Content>
+</ContentView>

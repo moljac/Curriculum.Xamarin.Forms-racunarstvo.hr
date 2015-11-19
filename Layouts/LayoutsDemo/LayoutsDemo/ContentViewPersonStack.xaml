@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LayoutsDemo.ContentViewPersonStack">
+	<ContentView.Content>
+	<StackLayout
+		Orientation="Vertical"
+		>
+		<Label>First Name and Last Name:</Label>
+		<Entry
+			x:Name="entryName"
+			>
+		</Entry>
+		<DatePicker
+			x:Name="datePcikerToday"
+			>
+		</DatePicker>
+		<StackLayout
+			Orientation="Horizontal">
+			<Label>DoB:</Label>
+			<DatePicker
+				x:Name="datePcikerDateOfBirth"
+				>
+			</DatePicker>
+		</StackLayout>
+		<StackLayout
+			Orientation="Horizontal"
+			>
+			<Label>Female:</Label>
+			<Switch
+				x:Name="switchIsFemale">
+			</Switch>
+		</StackLayout>
+
+		<StackLayout
+			Orientation="Horizontal">
+			<Label>Age:</Label>
+			<Label
+				x:Name="labelAge">nA</Label>
+		</StackLayout>
+	</StackLayout>
+	</ContentView.Content>
+</ContentView>
